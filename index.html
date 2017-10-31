@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+<<<<<<< HEAD
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Home Page | Museum PT Pos Indonesia</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+</head>
+<style type="text/css" media="screen">
+    footer{
+      color: white;
+    }
+    footer a{
+      color: #bfffff;
+    }
+    footer a:hover{
+      color: white;
+    }
+
+    .footer-bottom{
+      background: #3d6277;
+      padding: 2em;
+    }
+    .footer-top{
+      background: #2d4958;  
+    }
+    .footer-middle{
+       background: #3d6277;
+      padding-top: 2em;
+      color: white;
+    }
+    /**Sub Navigation**/
+    .subnavigation-container{
+      background: #3d6277;
+    }
+    .subnavigation .nav-link{
+      color: white;
+      font-weight: bold;
+    }
+    .subnavigation-container{
+      text-align: center;
+    }
+    .subnavigation-container .navbar{
+      display: inline-block;
+      margin-bottom: -6px; /* Inline-block margin offffset HACK -Gilron */
+    }
+    .col-subnav a{
+      padding: 1rem 1rem;
+      color: white;
+      font-weight: bold;
+    }
+    .col-subnav .active{
+      border-top:5px solid orange;
+     background: white;
+      color: black;
+    }    
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand page-scroll" href="#page-top">
+          <!-- <img src="img/pos-indonesia-vector-logo-400x400.png" class="img-responsive image-logo" alt=""> -->
+          Museum PT Pos Indonesia</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-right">
+            <li class="nav-item">
+              <a class="nav-link fa fa-home" href="index.html"> Home </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle fa fa-history" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Profil
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Sejarah</a>
+                <a class="dropdown-item" href="#">Struktur Organisasi</a>
+                <a class="dropdown-item" href="#">Visi, Misi, Tugas dan Fungsi</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fa fa-image" href="#gallery"> Galeri</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fa fa-phone" href="#contact"> Contact</a>
+            </li>          
+          </ul>
+        </div>
+      </div>
+    </nav>    
+    <div class="jumbotron jumbotron-fluid gambar">
+      <div class="container">
+        <h1><img src="img/pos-indonesia.png" class="img-logo2" alt=""></h1>
+        <div id="slider-home" class="intro text-center carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <h1><strong>Sejarah</strong></h1>
+              <p class="lead">
+                  Museum bersejarah ini sudah berdiri sejak zaman Hindia Belanda, tepatnya pada tahun 1933. <br> Awalnya, bangunan yang didesain oleh duo arsitek J. Berger dan Leutdsgebouwdienst ini bernama <br> Pos Telegrap dan Telepon (PTT). 
+              </p>
+            </div>
+            <div class="carousel-item">
+              <h1><strong>Koleksi</strong></h1>
+              <p class="lead">Benda-benda pos seperti timbangan surat dan sepeda pak pos juga turut dipamerkan. <br> Perkembangan baju dinas serta peralatan pos dari zaman kolonial hingga sekarang juga dapat Anda jumpai <br> di museum yang terletak tepat di samping Gedung Sate, Bandung, ini.</p>
+            </div>
+            <div class="carousel-item">
+              <h1><strong>Peneliti </strong> </h1>
+              <p class="lead">Untuk para peneliti filateli, Museum Pos dan Giro menjadi tempat yang wajib dikunjungi.
+              </p>
+            </div>
+          </div>
+          <ol class="carousel-indicators">
+            <li data-target="#slider-home" data-slide-to="0" class="active"></li>
+            <li data-target="#slider-home" data-slide-to="1"></li>
+            <li data-target="#slider-home" data-slide-to="2"></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    <div class="jumbotron jumbotron-fluid cc" id="address">
+      <div class="container">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-12">
+              <h4>Address</h4><br>
+              <div class="jumbotron  alamat">
+                <div class="container">
+                    Jl. Cilaki No.73, Citarum, Bandung Wetan, Kota Bandung, Jawa Barat 40115
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <h4>
+                Peta Lokasi
+              </h4><br>
+                  <div style="google-maps">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.902034559508!2d107.61777911436711!3d-6.902318095012566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e64b5afecaeb%3A0x12b93c9309d6b441!2sMuseum+Pos+Indonesia!5e0!3m2!1sid!2sid!4v1509437659120" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>                    
+                  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <footer class="mainfooter" role="contentinfo">
+      <div class="footer-middle">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <!--Column1-->
+            <div class="footer-pad">
+              <h4><i class="fa fa-map-marker"></i> Address</h4>
+              <address>
+                <ul class="list-unstyled">
+                  <li>Jl. Cilaki No.73, Citarum, Bandung Wetan, Kota Bandung, Jawa Barat 40115
+                  </li>
+                  <li><i class="fa fa-phone"></i> Phone: (022) 4206195</li>
+                </ul>
+              </address>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <!--Column1-->
+            <div class="footer-pad">
+              <h4>Popular Services</h4>
+              <ul class="list-unstyled">
+                <li><a href="#"></a></li>
+                <li><a href="#">Payment Center</a></li>
+                <li><a href="#">Contact Directory</a></li>
+                <li><a href="#">Forms</a></li>
+                <li><a href="#">News and Updates</a></li>
+                <li><a href="#">FAQs</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <!--Column1-->
+            <div class="footer-pad">
+              <h4>Website Terkait</h4>
+              <ul class="list-unstyled">
+                <li><a href="museum.geology.esdm.go.id">Museum Geologi Bandung</a></li>
+                <li><a href="http://museumsribaduga.jabarprov.go.id">Museum Sri Baduga</a></li>
+                <li><a href="asosiasimuseumindonesia.org">Asosiasi Museum Indonesia</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <!--Column1-->
+            <div class="footer-pad">
+              <h4>Popular Departments</h4>
+              <ul class="list-unstyled">
+                <li><a href="#">Parks and Recreation</a></li>
+                <li><a href="#">Public Works</a></li>
+                <li><a href="#">Police Department</a></li>
+                <li><a href="#">Fire</a></li>
+                <li><a href="#">Mayor and City Council</a></li>
+                <li>
+                  <a href="#"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <!--Footer Bottom-->
+              <center><p class="text-xs-center">&copy; Copyright 2017 - Design by Fawzi Ridwan.  All rights reserved.</p></center>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <right>
+        <a href="#top" class="back-top text-center hidden-print" onclick="$('body,html').animate({scrollTop:0},500); return false">
+            <i class="fa fa-angle-double-up fa-lg"></i>
+        </a>   
+    </right> 
+    <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/popper.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/style.js"></script>
+=======
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Page | Museum Pos Indonesia</title>
+<!-- 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/js/popper.min.js"></script>
+    <script src="bower_components/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="init.js"></script> -->
+</head>
+<style>
+	body {margin:0;}
+
+	.topnav {
+	  overflow: hidden;
+	  background-color: rgba(255, 151, 0, 0.81);
+	}
+
+	.topnav a {
+	  float: left;
+	  display: block;
+	  color: #f2f2f2;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-size: 17px;
+	}
+
+	.topnav a:hover {
+	  background-color: rgba(255, 165, 0, 0.59);
+	  color: black;
+	}
+
+	.topnav .icon {
+	  display: none;
+	}
+
+	@media screen and (max-width: 600px) {
+	  .topnav a:not(:first-child) {display: none;}
+	  .topnav a.icon {
+	    float: right;
+	    display: block;
+	  }
+	}
+
+	@media screen and (max-width: 600px) {
+	  .topnav.responsive {position: relative;}
+	  .topnav.responsive .icon {
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	  }
+	  .topnav.responsive a {
+	    float: none;
+	    display: block;
+	    text-align: left;
+	  }
+
+	}
+</style>
+<body>
+<div class="topnav" id="myTopnav">
+  <a href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<div style="padding-left:16px">
+  <h2>Responsive Topnav Example</h2>
+  <p>Resize the browser window to see how it works.</p>
+</div>
+
+<script>
+	function myFunction() {
+	    var x = document.getElementById("myTopnav");
+	    if (x.className === "topnav") {
+	        x.className += " responsive";
+	    } else {
+	        x.className = "topnav";
+	    }
+	}
+</script>
+>>>>>>> 6382eb1716953b6937fbe30692a289645320624e
+</body>
+</html>

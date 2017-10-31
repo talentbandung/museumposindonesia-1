@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>PT. Museum Pos Indonesia</title>
+	<!-- favicon -->
+	<link rel="icon" href="img/logo.png" style="width: 100px; height: 50px;" type="image/x-icon" />
+	<!--Import Google Icon Font-->
+	<link rel="stylesheet" type="text/css" href="assets/css/material-icon.css">
+	<!-- default style css -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="assets/css/materialize.min.css">
+	<script src="assets/js/jquery-3.2.0.min.js"></script>
+	<!-- Compiled and minified JavaScript -->
+	<script src="assets/js/materialize.min.js"></script>	
+	<!--Import materialize.css-->
+	<link type="text/css" rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css"  media="screen,projection"/>
+	<!-- font awesome -->
+	<link rel="stylesheet" type="text/css" href="node_modules/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+	<!-- Dropdown Structure -->
+	<ul id="dropdown1" class="dropdown-content">
+	  <li><a href="#!">one</a></li>
+	  <li><a href="#!">two</a></li>
+	</ul>
+	<nav class="light-green lighten-1" role="navigation">
+		<div class="nav-wrapper">
+			<a id="logo-container" href="#" class="brand-logo" style="margin: 5px;">
+				<img src="img/logo.png" class="responsive-img" alt="Logo" style="width: 100px; height: 50px;">
+			</a>
+			<ul class="right hide-on-med-and-down">
+		    <li><a href="index.html"> Beranda</i></a></li>
+		    <li><a href="profile.html">Profile</i></a></li>
+		    <li><a href="koleksi.html">Koleksi</i></a></li>
+		      <li><a href="tokoh.html">Tokoh</a></li>
+		      <li><a href="kegiatan.html">Kegiatan</a></li>
+		      <!-- Dropdown Trigger -->
+		      <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Page<i class="material-icons right">arrow_drop_down</i></a></li>
+		    </ul>
+		  <ul id="nav-mobile" class="side-nav">
+		    <li><a href="index.html"> Beranda</i></a></li>
+		    <li><a href="profile.html">Profile</i></a></li>
+		    <li><a href="contact.html">Sejarah</i></a></li>
+		      <li><a href="sass.html">Sass</a></li>
+		      <li><a href="badges.html">Components</a></li>
+		      <!-- Dropdown Trigger -->
+		      <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Page<i class="material-icons right">arrow_drop_down</i></a></li>
+		  </ul>
+		  <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+		</div>
+	</nav>
+
+	<!-- <div class="section no-pad-bot" id="index-banner">
+		<div class="parallax-container">
+		  <br><br>
+		  <h1 class="header center orange-text">Starter Template</h1>
+		  <div class="row center">
+		    <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+		  </div>
+		  <div class="row center">
+		    <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>
+		  </div>
+		  <br><br>
+		</div>
+	</div>
+	<div class="page-content-maps">
+		<div class="col l3 s12">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.9020345595764!2d107.61777911450656!3d-6.902318095012578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e64b5afecaeb%3A0x12b93c9309d6b441!2sMuseum+Pos+Indonesia!5e0!3m2!1sid!2sid!4v1508608279137" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
+	</div> -->
+	<!-- 
+	<footer class="page-footer orange">
+		<div class="container">
+		  <div class="row">
+		    <div class="col l6 s12">
+		      <h5 class="white-text">PT Museum Pos Indonesia</h5>
+		      <p class="grey-text text-lighten-4">Museum Pos Indonesia terletak di Jalan Cilaki No. 73 Bandung , Jawa Barat. Museum bersejarah ini sudah berdiri sejak zaman Hindia Belanda, tepatnya pada tahun 1933. Awalnya, bangunan yang didesain oleh duo arsitek J. Berger dan Leutdsgebouwdienst ini bernama Pos Telegrap dan Telepon (PTT).</p>
+
+
+		    </div>
+		    <div class="col l3 s12">
+		      <h5 class="white-text">Contact</h5>
+		      <ul>
+		        <li><a class="white-text" href="tel:0224206195"> <i class="fa fa-phone"></i> (022) 4206195</a></li>
+		        <li><a class="white-text" href="#!"><i class="fa fa-envelope"></i> mail@posindonesia.co.id</a></li>
+		        <li><a class="white-text" href="www.facebook.com/museumposindonesia"><i class="fa fa-facebook"></i> museumposindonesia</a></li>
+		      </ul>
+		    </div>
+		    <div class="col l3 s12">
+		      <h5 class="white-text">Connect</h5>
+		      <ul>
+		        <li><a class="white-text" href="#!">Link 1</a></li>
+		        <li><a class="white-text" href="#!">Link 2</a></li>
+		        <li><a class="white-text" href="#!">Link 3</a></li>
+		        <li><a class="white-text" href="#!">Link 4</a></li>
+		      </ul>
+		    </div>
+		  </div>
+		</div>
+		<div class="footer-copyright">
+		  <div class="container">
+		  Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+		  </div>
+		</div>
+	</footer> -->
+<!-- Page Layout here -->
+ 	<div class="container-fluid">
+  		<div class="col s12">
+						      			
+  		</div>
+  		<div class="col s12">
+			<div class="row">
+				<div class="col s3 col m6 col s12"><p style="text-align: justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<div class="col m6">
+					<div class="carousel carousel-slider center" data-indicators="true">
+						<div class="carousel-fixed-item center">
+						  <a class="btn waves-effect white grey-text darken-text-2">button</a>
+						</div>
+						<div class="carousel-item red white-text" href="#one!">
+						  <h2>First Panel</h2>
+						  <p class="white-text">This is your first panel</p>
+						</div>
+						<div class="carousel-item amber white-text" href="#two!">
+						  <h2>Second Panel</h2>
+						  <p class="white-text">This is your second panel</p>
+						</div>
+						<div class="carousel-item green white-text" href="#three!">
+						  <h2>Third Panel</h2>
+						  <p class="white-text">This is your third panel</p>
+						</div>
+						<div class="carousel-item blue white-text" href="#four!">
+						  <h2>Fourth Panel</h2>
+						  <p class="white-text">This is your fourth panel</p>
+						</div>
+					</div>				
+				</div>				
+			</div>	
+  		</div>
+  		<div class="col s6 green" style="height: auto;">
+  			<div class="carousel">
+				<a class="carousel-item" href="#one!"><img src="img/slide/1.jpg"></a>
+				<a class="carousel-item" href="#two!"><img src="img/slide/2.jpg"></a>
+				<a class="carousel-item" href="#three!"><img src="img/slide/3.jpg"></a>
+			</div>	
+  		</div>
+	</div>		
+	<script>
+		$(document).ready(function(){
+			// slider
+			$('.slider').slider({height:800,transition:400});
+			// carousel
+			$('.carousel.carousel-slider').carousel({fullWidth: true});
+			// Next slide
+		  	$('.carousel').carousel({padding:100});
+		  	// autoplay carousel
+		  	autoSlider()
+		  	function autoSlider()	{
+		  		$('.carousel.carousel-slider').carousel({fullWidth: true}).carousel(next);
+		  		setTimeout(autoSlider,10000);
+
+		  		$('.carousel.carousel-slider').carousel({fullWidth: true}).carousel(prev);
+		  		setTimeout(autoSlider,10000);	  		
+		  	}
+
+		  	autoplay()
+		  	
+		  	function autoplay()	{
+		  		$('.carousel').carousel('next');
+	   	 		setTimeout(autoplay, 10000);
+
+	   	 		$('.carousel').carousel('prev');
+	    		setTimeout(autoplay, 10000);
+		  	}  	
+		});
+	</script>
+	<script type="text/javascript" src="assets/js/popper.min.js"></script>
+	<script type="text/javascript" src="assets/js/init.js"></script>
+	<script type="text/javascript" src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
+</body>
+</html>

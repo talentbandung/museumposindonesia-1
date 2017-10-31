@@ -1,0 +1,44 @@
+{
+<<<<<<< HEAD
+  "name": "museumptpos",
+  "version": "1.0.0",
+  "description": "",
+=======
+  "name": "museumpos",
+  "version": "1.0.0",
+  "description": "demo web \u001b[1;5D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Cm\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[C pt museum pos indonesia",
+>>>>>>> 6382eb1716953b6937fbe30692a289645320624e
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+<<<<<<< HEAD
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2",
+    "font-awesome": "^4.7.0",
+    "jquery": "^1.12.4",
+    "popper.js": "^1.12.6"
+=======
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/talentbandung/museumposindonesia.github.io.git"
+  },
+  "keywords": [
+    "museum-pos-indonesia"
+  ],
+  "author": "fawziridwan-14",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/talentbandung/museumposindonesia.github.io/issues"
+  },
+  "homepage": "https://github.com/talentbandung/museumposindonesia.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2",
+    "font-awesome": "^4.7.0",
+    "materialize-css": "^0.100.2",
+    "popper.js": "^1.12.5"
+>>>>>>> 6382eb1716953b6937fbe30692a289645320624e
+  }
+}
